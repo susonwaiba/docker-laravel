@@ -18,7 +18,7 @@ RUN pecl install imagick
 RUN apt-get install -y libonig-dev
 
 # Installing extensions
-RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl bcmath opcache
+RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl bcmath opcache gd
 RUN docker-php-ext-enable imagick
 
 # Installing composer

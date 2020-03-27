@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libzip-dev \
     locales \
     zip \
-    jpegoptim optipng pngquant gifsicle
+    jpegoptim optipng pngquant gifsicle vim git
 
 # Installing others dependencies
 RUN pecl install imagick

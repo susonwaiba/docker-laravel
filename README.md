@@ -24,5 +24,8 @@ Suports php v7.2, v7.3, v7.4
 - Then change remote mapping to `/var/www/laravel` which is default internal mounting dir
 - With above cli interpretter, we can run everything as like local cli interpreter in latest PhpStorm version
 
+## WSL Setup
+- Works out of box with php container
+
 
 Merge request and feedbacks are welcome.

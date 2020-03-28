@@ -2,7 +2,7 @@ version: '3'
 
 services:
   php:
-    build: php/7.3
+    build: php/7.4
     working_dir: /var/www/laravel
     depends_on:
       - db
@@ -15,7 +15,7 @@ services:
         max-size: "10m"
 
   horizon:
-    build: php/7.3
+    build: php/7.4
     working_dir: /var/www/laravel
     command: php artisan horizon
     depends_on:
